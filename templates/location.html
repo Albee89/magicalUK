@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+
+  {% block title %}3- Day Forecast{% endblock %}
+  {% block content %}
+<html>
+<head>
+    <meta charset="UTF-8">
+
+</head>
+
+
+<body>
+
+<form action="https://localhost:5000/weather" method="post">
+<label for="location" id="location">Choose one of our beautiful locations explore England:
+</label>
+    <select>
+    <option value="Lake District National Park">Lake District National Park</option>
+    <option value="Corfe Castle">Corfe Castle</option>
+    <option value="The Cotswolds"></option>
+    <option value ="Cambridge">Cambridge</option>
+    <option value="Bristol">Bristol</option>
+    <option value="Oxford">Oxford</option>
+    <option value="Norwich">Norwich</option>
+    <option value="Stonehenge">Stonehenge</option>
+    <option value="Watergate Bay">Watergate Bay</option>
+    <option value="Birmingham">Birmingham</option>
+    </select>
+     </form>
+
+</body>
+
+
+ {% endblock %}
+
+
