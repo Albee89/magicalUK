@@ -8,6 +8,6 @@ from dotenv import dotenv_values
 
 
 config = dotenv_values("weather_3.env")
-which_API = (config[weather_3])
+which_API = (config['weather_3'])
 print(which_API)
 
